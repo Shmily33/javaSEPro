@@ -1,3 +1,5 @@
+package com.javase.helloworld;
+
 /**
  * @Author: gs_wang
  * @Date: 2024/06/07/15:20
@@ -6,5 +8,7 @@
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        System.out.println("Hello world!2");
     }
+
 }
