@@ -14,7 +14,8 @@ public class CheckCode {
         System.out.println("请输入需要几位验证码：");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        System.out.println("验证码为：" + checkCode(num));
+//        System.out.println("验证码为：" + checkCode(num));
+        System.out.println("验证码为：" + checkCode2(num));
     }
 
     public static String checkCode(int num) {
@@ -36,6 +37,16 @@ public class CheckCode {
             }
         }
         return res;
+    }
+    public static String checkCode2(int num) {
+        String code = "";
+        String data = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        int len = data.length();
+        Random random = new Random();
+        for (int i = 0; i < num; i++) {
+            code += data.charAt(random.nextInt(len));
+        }
+        return code;
     }
 
 }
