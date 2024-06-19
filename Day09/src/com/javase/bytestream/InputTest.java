@@ -11,9 +11,9 @@ import java.io.InputStream;
  */
 public class InputTest {
     public static void main(String[] args) throws Exception {
-        InputStream is = new FileInputStream("E:\\桌面\\javaPro\\javaProjects\\javaSEPro\\Day09\\src\\java01.txt");
+        InputStream is = new FileInputStream("Day09\\src\\java01.txt");
 
-        File f = new File("javaSEPro\\Day09\\src\\java01.txt");
+        File f = new File("Day09\\src\\java01.txt");
         long size = f.length();
         byte[] buffer = new byte[(int) size];
 
