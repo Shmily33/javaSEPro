@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d12407c-dfe7-44ac-b5ec-e2405014637e" name="更改" comment="线程同步实例">
-      <change afterPath="$PROJECT_DIR$/Day10/src/com/javase/createthreadpool/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/src/com/javase/createthreadpool/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/src/com/javase/createthreadpool/ThreadPoolTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/src/com/javase/createthreadpool/ThreadPoolTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/Day11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/src/com/javase/juint/StringUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day11/src/com/javase/juint/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0d12407c-dfe7-44ac-b5ec-e2405014637e" name="更改" comment="Day11" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +173,7 @@
       <workItem from="1718780643305" duration="2342000" />
       <workItem from="1718783017343" duration="9807000" />
       <workItem from="1718884692056" duration="3918000" />
-      <workItem from="1718888648704" duration="822000" />
+      <workItem from="1718888648704" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Day10-">
       <option name="closed" value="true" />
@@ -209,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718796279482</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day11">
+      <option name="closed" value="true" />
+      <created>1718889498838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718889498838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +217,7 @@
     <MESSAGE value="更改" />
     <MESSAGE value="Day10-" />
     <MESSAGE value="线程同步实例" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程同步实例" />
+    <MESSAGE value="Day11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day11" />
   </component>
 </project>
